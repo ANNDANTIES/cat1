@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.w3schools">
+    <xs:element name="college">
+     <xs:complexType>
+         <xs:sequence>
+             <xs:element name="student">
+                <xs:complexType>
+                    <xs:sequence>  
+                        <xs:element name="sname" type="xs:string"/>
+                        <xs:element name="scourse" type="xs:string"/>
+                        <xs:element name="ssem" type="xs:integer"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+                        <xs:simpleType>
+                        <xs:element name="sub1" type="xs:integer"> 
+                        <xs:restriction base="xs:integer">
+                        <xs:element minInclusive="0" maxInclusive="100"/>
+                        </xs:restriction>
+                        </xs:element>
+                        </xs:simpleType>
+                        <xs:simpleType>
+                            <xs:element name="sub2" type="xs:integer"> 
+                            <xs:restriction base="xs:integer">
+                            <xs:element minInclusive="0" maxInclusive="100"/>
+                            </xs:restriction>
+                            </xs:element>
+                            </xs:simpleType>
+                            <xs:simpleType>
+                                <xs:element name="sub3" type="xs:integer"> 
+                                <xs:restriction base="xs:integer">
+                                <xs:element minInclusive="0" maxInclusive="100"/>
+                                </xs:restriction>
+                                </xs:element>
+                            </xs:simpleType>
+                            <xs:complexType>
+                                <xs:sequence>  
+                                    <xs:element name="total" type="xs:string"/>
+                                    <xs:element name="average" type="xs:string"/>
+                                </xs:sequence>
+                            </xs:complexType>
+            </xs:sequence>
+     </xs:complexType>   
+    </xs:element>
+</xs:schema>

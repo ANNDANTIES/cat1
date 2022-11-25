@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="stdxsl.xsl" type="text/xsl"?>
+<college href="stdxsd.xsd" type="application/xml" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <student id="1">
+        <sname>Anna</sname>
+        <scourse>MCA</scourse>
+        <ssem>2</ssem>
+        <sub1>60</sub1>
+        <sub2>80</sub2>
+        <sub3>78</sub3>
+        <total>77</total>
+        <avg>78</avg>
+        <grade></grade>
+    </student>
+    <student id="1">
+        <sname>Raj</sname>
+        <scourse>MCA</scourse>
+        <ssem>2</ssem>
+        <sub1>68</sub1>
+        <sub2>88</sub2>
+        <sub3>89</sub3>
+        <total>89</total>
+        <avg>80</avg>
+        <grade></grade>
+    </student>
+</college>
